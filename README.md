@@ -57,8 +57,11 @@ The project demonstrates cloud computing principles and efficient notification m
      3. Add Environment Variables:
         - `NBA_API_KEY`: Your API key from SportsData.io.
         - `SNS_TOPIC_ARN`: The ARN of your SNS topic.
-     4. Test the function with a sample input.
-        - if you encounter a timeout error, go to the general configuration and increase the time to 15 seconds
+     4. Test the function:
+        - If you encounter a timeout error, go to the general configuration and edit the timeout.
+          [timeout_edit](images/timeout_edit.png)
+        - Increase the time to 15 seconds.
+          [timeout_update](images/timeout_update.png)
 
    - Set up an EventBridge Rule:
      1. Go to the **EventBridge Console** and create a rule.
