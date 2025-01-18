@@ -59,9 +59,9 @@ The project demonstrates cloud computing principles and efficient notification m
         - `SNS_TOPIC_ARN`: The ARN of your SNS topic.
      4. Test the function:
         - If you encounter a timeout error, go to the general configuration and edit the timeout.
-          [!timeout_edit](/images/timeout_edit.png)
-        - Increase the time to 15 seconds.
-          [!timeout_update](/images/timeout_update.png)
+          ![timeout_edit](images/timeout_edit.png)
+        - Increase the timeout to 15 seconds.
+          ![timeout_update](images/timeout_update.png)
 
    - Set up an EventBridge Rule:
      1. Go to the **EventBridge Console** and create a rule.
