@@ -1,4 +1,4 @@
-# Game Day Notification
+# 30 Days DevOps Challenge - Game Day Notification
 **Project Overview:** This project implements event-driven architecture for an alert system that sends real-time NBA game day score notifications to subscribed users via SMS/Email. It utilizes the following AWS services and tools:
 - **Amazon Simple Notification Service (SNS):** For sending SMS and email notifications.
 - **AWS Lambda:** To process and handle API data and notifications.
